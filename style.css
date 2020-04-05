@@ -1,0 +1,29 @@
+
+.jumbotron{
+    margin-bottom: 0px;
+    color: white;
+    background-color:blueviolet;
+    align-content:center;
+
+
+}
+.text-center{
+    font-size: 30px;
+    font-weight: 400px;
+    font-family: sans-serif;
+    align-items: center;
+    
+}
+.row{
+    margin-bottom: 20px;
+
+}
+.form{
+    color:darkgreen;
+    shape-outside: border-box;
+}
+.text-2{
+    font-size: 30px;
+    color: brown;
+    
+}
