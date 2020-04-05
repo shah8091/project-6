@@ -5,10 +5,11 @@ $(document).ready(function () {
 
     if (city != '') {
         $.ajax({
-            url: 'http://api.openweathermap.org/data/2.5/weather?q=' + city + "&units=imperial" + "$APP IDcaf4732cd12e4511a4dd927b83415981",
-            type: "get",
+            Url: 'http://api.openweathermap.org/data/2.5/weather?q=' + city + "&units=imperial" +
+                "$appid=2876d78fa6247f5ace9cb98ff0fe0618",
+            method: "get",
             dataType: "jasonp",
-            function(data) {
+            callBack: function (data) {
                 console.log(data);
             }
 
@@ -17,7 +18,7 @@ $(document).ready(function () {
         });
 
     } else {
-        $("#error");
+        $("#error")
     }
 });
 
